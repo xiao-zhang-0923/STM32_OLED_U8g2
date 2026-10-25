@@ -1,0 +1,16 @@
+# Keil build outputs
+MDK-ARM/build.log
+MDK-ARM/OLED_U28G/*.o
+MDK-ARM/OLED_U28G/*.d
+MDK-ARM/OLED_U28G/*.crf
+MDK-ARM/OLED_U28G/*.lnp
+MDK-ARM/OLED_U28G/*.dep
+MDK-ARM/OLED_U28G/*.map
+MDK-ARM/OLED_U28G/*.lst
+MDK-ARM/OLED_U28G/*.htm
+MDK-ARM/OLED_U28G/*.build_log.htm
+MDK-ARM/OLED_U28G.uvguix.*
+
+# host simulator
+Tools/sim/sim.exe
+Tools/sim/frames/

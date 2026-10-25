@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"oled_hanzidianzhen\startup_stm32f103xb.o"
+"oled_hanzidianzhen\main.o"
+"oled_hanzidianzhen\gpio.o"
+"oled_hanzidianzhen\i2c.o"
+"oled_hanzidianzhen\stm32f1xx_it.o"
+"oled_hanzidianzhen\stm32f1xx_hal_msp.o"
+"oled_hanzidianzhen\stm32f1xx_hal_gpio_ex.o"
+"oled_hanzidianzhen\stm32f1xx_hal_i2c.o"
+"oled_hanzidianzhen\stm32f1xx_hal.o"
+"oled_hanzidianzhen\stm32f1xx_hal_rcc.o"
+"oled_hanzidianzhen\stm32f1xx_hal_rcc_ex.o"
+"oled_hanzidianzhen\stm32f1xx_hal_gpio.o"
+"oled_hanzidianzhen\stm32f1xx_hal_dma.o"
+"oled_hanzidianzhen\stm32f1xx_hal_cortex.o"
+"oled_hanzidianzhen\stm32f1xx_hal_pwr.o"
+"oled_hanzidianzhen\stm32f1xx_hal_flash.o"
+"oled_hanzidianzhen\stm32f1xx_hal_flash_ex.o"
+"oled_hanzidianzhen\stm32f1xx_hal_exti.o"
+"oled_hanzidianzhen\system_stm32f1xx.o"
+"oled_hanzidianzhen\oled.o"
+"oled_hanzidianzhen\sht30.o"
+--strict --scatter "OLED_hanzidianzhen\OLED_hanzidianzhen.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "OLED_hanzidianzhen.map" -o OLED_hanzidianzhen\OLED_hanzidianzhen.axf
